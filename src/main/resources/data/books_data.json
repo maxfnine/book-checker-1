@@ -1,0 +1,696 @@
+[
+  {
+    "brandName": "Renault",
+    "baseURL": "https://cloud.info.renault.co.il/catalog?m=",
+    "canSkip": true,
+    "models": [
+      {
+        "name": "Clio",
+        "canBeSkipped": false,
+        "licenceNumber": "83267802",
+        "bookUrls": {
+          "fullBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "shortBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "multimediaBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "maintenanceBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "guarantyBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "serviceListBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          }
+        }
+      },
+      {
+        "name": "Megane",
+        "canBeSkipped": false,
+        "licenceNumber": "83326001",
+        "bookUrls": {
+          "fullBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "shortBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "multimediaBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "maintenanceBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "guarantyBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "serviceListBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          }
+        }
+      },
+      {
+        "name": "Captur",
+        "canBeSkipped": false,
+        "licenceNumber": "83270702",
+        "bookUrls": {
+          "fullBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "shortBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "multimediaBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "maintenanceBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "guarantyBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "serviceListBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          }
+        }
+      },
+      {
+        "name": "Traffic",
+        "canBeSkipped": false,
+        "licenceNumber": "83342302",
+        "bookUrls": {
+          "fullBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "shortBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "multimediaBook": {
+            "required": false,
+            "url": "",
+            "cssQuery": ""
+          },
+          "maintenanceBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "guarantyBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "serviceListBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          }
+        }
+      },
+      {
+        "name": "Master",
+        "canBeSkipped": false,
+        "licenceNumber": "83211002",
+        "bookUrls": {
+          "fullBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "shortBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "multimediaBook": {
+            "required": false,
+            "url": "",
+            "cssQuery": ""
+          },
+          "maintenanceBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "guarantyBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "serviceListBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          }
+        }
+      }
+    ]
+  },
+  {
+    "brandName": "Nissan",
+    "baseURL": "https://cloud.info.lease4u.co.il/platenumber?m=",
+    "canSkip": false,
+    "models": [
+      {
+        "name": "Micra",
+        "canBeSkipped": true,
+        "licenceNumber": "83269502",
+        "bookUrls": {
+          "fullBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "shortBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "multimediaBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "maintenanceBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "guarantyBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "serviceListBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          }
+        }
+      },
+      {
+        "name": "Sentra",
+        "canBeSkipped": true,
+        "licenceNumber": "12747103",
+        "bookUrls": {
+          "fullBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "shortBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "multimediaBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "maintenanceBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "guarantyBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "serviceListBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          }
+        }
+      },
+      {
+        "name": "Altima",
+        "canBeSkipped": true,
+        "licenceNumber": "83251302",
+        "bookUrls": {
+          "fullBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "shortBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "multimediaBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "maintenanceBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "guarantyBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "serviceListBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          }
+        }
+      },
+      {
+        "name": "Maxima",
+        "canBeSkipped": true,
+        "licenceNumber": "45023402",
+        "bookUrls": {
+          "fullBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "shortBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "multimediaBook": {
+            "required": false,
+            "url": "",
+            "cssQuery": ""
+          },
+          "maintenanceBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "guarantyBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "serviceListBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          }
+        }
+      },
+      {
+        "name": "Juke",
+        "canBeSkipped": true,
+        "licenceNumber": "83287702",
+        "bookUrls": {
+          "fullBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "shortBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "multimediaBook": {
+            "required": false,
+            "url": "",
+            "cssQuery": ""
+          },
+          "maintenanceBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "guarantyBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "serviceListBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          }
+        }
+      },
+     {
+        "name": "Quashqai",
+        "canBeSkipped": true,
+        "licenceNumber": "83191102",
+        "bookUrls": {
+          "fullBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "shortBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "multimediaBook": {
+            "required": false,
+            "url": "",
+            "cssQuery": ""
+          },
+          "maintenanceBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "guarantyBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "serviceListBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          }
+        }
+      },
+      {
+        "name": "X-Trail",
+        "canBeSkipped": false,
+        "licenceNumber": "83114302",
+        "bookUrls": {
+          "fullBook": {
+            "required": true,
+            "url": "https://my.nissan.co.il/3kbTEOK",
+            "cssQuery": "a[alias=\"ספר רכב כללי\"]"
+          },
+          "shortBook": {
+            "required": true,
+            "url": "https://my.nissan.co.il/3nnyga6",
+            "cssQuery": "a[alias=\"תקציר כללי \"]"
+          },
+          "multimediaBook": {
+            "required": true,
+            "url": "https://my.nissan.co.il/3xFY9F6",
+            "cssQuery": "a[alias=\"חוברות מולטימדיה\"]"
+          },
+          "maintenanceBook": {
+            "required": true,
+            "url": "https://my.nissan.co.il/36rUjDP",
+            "cssQuery": "a[alias=\"מערך טיפולים- 1\"]"
+          },
+          "guarantyBook": {
+            "required": true,
+            "url": "https://my.nissan.co.il/3rdMNG3",
+            "cssQuery": "a[alias=\"חוברת אחריות\"]"
+          },
+          "serviceListBook": {
+            "required": true,
+            "url": "https://my.nissan.co.il/3zXJUxK",
+            "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "brandName": "Dacia",
+    "baseURL": "https://cloud.info.dacia.co.il/catalog?m=",
+    "canSkip": true,
+    "models": [
+      {
+        "name": "Duster",
+        "canBeSkipped": false,
+        "licenceNumber": "83279602",
+        "bookUrls": {
+          "fullBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "shortBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "multimediaBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "maintenanceBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "guarantyBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "serviceListBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          }
+        }
+      },
+      {
+        "name": "Jogger",
+        "canBeSkipped": false,
+        "licenceNumber": "83285502",
+        "bookUrls": {
+          "fullBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "shortBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "multimediaBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "maintenanceBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "guarantyBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "serviceListBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          }
+        }
+      },
+      {
+        "name": "Lodgy",
+        "canBeSkipped": false,
+        "licenceNumber": "60626202",
+        "bookUrls": {
+          "fullBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "shortBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "multimediaBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "maintenanceBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "guarantyBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "serviceListBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          }
+        }
+      }
+    ]
+  },
+  {
+    "brandName": "Infiniti",
+    "baseURL": "https://cloud.info.infiniti-cars.co.il/catalog?m=",
+    "canSkip": true,
+    "models": [
+      {
+        "name": "QX50",
+        "canBeSkipped": false,
+        "licenceNumber": "83300402",
+        "bookUrls": {
+          "fullBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "shortBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "multimediaBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "maintenanceBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "guarantyBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "serviceListBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          }
+        }
+      },
+      {
+        "name": "QX55",
+        "canBeSkipped": false,
+        "licenceNumber": "83300302",
+        "bookUrls": {
+          "fullBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "shortBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "multimediaBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "maintenanceBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "guarantyBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "serviceListBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          }
+        }
+      },
+      {
+        "name": "QX60",
+        "canBeSkipped": false,
+        "licenceNumber": "83333402",
+        "bookUrls": {
+          "fullBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "shortBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "multimediaBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "maintenanceBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "guarantyBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          },
+          "serviceListBook": {
+            "required": true,
+            "url": "",
+            "cssQuery": ""
+          }
+        }
+      }
+    ]
+  }
+]
