@@ -272,38 +272,38 @@
       },
       {
         "name": "Altima",
-        "canBeSkipped": true,
+        "canBeSkipped": false,
         "licenceNumber": "83251302",
         "bookUrls": {
           "fullBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.nissan.co.il/3iDuYfx",
+            "cssQuery": "a[alias=\"ספר רכב כללי\"]"
           },
           "shortBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.nissan.co.il/31Zczpu",
+            "cssQuery": "a[alias=\"תקציר כללי \"]"
           },
           "multimediaBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.nissan.co.il/3zpVyji",
+            "cssQuery": "a[alias=\"חוברות מולטימדיה\"]"
           },
           "maintenanceBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.nissan.co.il/3kPgEDL",
+            "cssQuery": "a[alias=\"מערך טיפולים- 1\"]"
           },
           "guarantyBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.nissan.co.il/3rdMNG3",
+            "cssQuery": "a[alias=\"חוברת אחריות\"]"
           },
           "serviceListBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.nissan.co.il/3Aqz5pv",
+            "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
           }
         }
       },
@@ -311,39 +311,38 @@
         "name": "Maxima",
         "canBeSkipped": false,
         "licenceNumber": "83105602",
-
-          "bookUrls": {
-            "fullBook": {
-              "required": true,
-              "url": "https://my.nissan.co.il/3yjcesJ",
-              "cssQuery": "a[alias=\"ספר רכב כללי\"]"
-            },
-            "shortBook": {
-              "required": true,
-              "url": "https://my.nissan.co.il/3rMuRmp",
-              "cssQuery": "a[alias=\"תקציר כללי \"]"
-            },
-            "multimediaBook": {
-              "required": true,
-              "url": "https://my.nissan.co.il/3xFY9F6",
-              "cssQuery": "a[alias=\"חוברות מולטימדיה\"]"
-            },
-            "maintenanceBook": {
-              "required": true,
-              "url": "https://my.nissan.co.il/3iRlf5F",
-              "cssQuery": "a[alias=\"מערך טיפולים- 1\"]"
-            },
-            "guarantyBook": {
-              "required": true,
-              "url": "https://my.nissan.co.il/3rdMNG3",
-              "cssQuery": "a[alias=\"חוברת אחריות\"]"
-            },
-            "serviceListBook": {
-              "required": true,
-              "url": "https://my.nissan.co.il/3A6UaUI",
-              "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
-            }
+        "bookUrls": {
+          "fullBook": {
+            "required": true,
+            "url": "https://my.nissan.co.il/3yjcesJ",
+            "cssQuery": "a[alias=\"ספר רכב כללי\"]"
+          },
+          "shortBook": {
+            "required": true,
+            "url": "https://my.nissan.co.il/3rMuRmp",
+            "cssQuery": "a[alias=\"תקציר כללי \"]"
+          },
+          "multimediaBook": {
+            "required": true,
+            "url": "https://my.nissan.co.il/3xFY9F6",
+            "cssQuery": "a[alias=\"חוברות מולטימדיה\"]"
+          },
+          "maintenanceBook": {
+            "required": true,
+            "url": "https://my.nissan.co.il/3iRlf5F",
+            "cssQuery": "a[alias=\"מערך טיפולים- 1\"]"
+          },
+          "guarantyBook": {
+            "required": true,
+            "url": "https://my.nissan.co.il/3rdMNG3",
+            "cssQuery": "a[alias=\"חוברת אחריות\"]"
+          },
+          "serviceListBook": {
+            "required": true,
+            "url": "https://my.nissan.co.il/3A6UaUI",
+            "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
           }
+        }
       },
       {
         "name": "Juke",
@@ -382,7 +381,7 @@
           }
         }
       },
-     {
+      {
         "name": "Quashqai",
         "canBeSkipped": true,
         "licenceNumber": "83191102",
