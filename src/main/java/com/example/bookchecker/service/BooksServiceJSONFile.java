@@ -48,6 +48,7 @@ public class BooksServiceJSONFile {
                     continue;
                 }else{
                     BrandModelOutput brandResults= validateBrand(brandModel);
+                    result.add(brandResults);
                 }
             }
         }
