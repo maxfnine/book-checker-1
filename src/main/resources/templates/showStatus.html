@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-us"
+      xmlns:th="http://www.thymeleaf.org"
+>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Books Status</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<h1>Books Status</h1>
+<div class="container">
+  <div class="status-tables">
+    <div th:each="brand: ${brands}" class="tables-container">
+        <h2 th:text="${brand.brandName}"></h2>
+        <table  class="brand-table">
+            <tr>
+                <th>רשימת מרכזי שירות</th>
+                <th>חוברת אחריות</th>
+                <th>טיפולים</th>
+                <th>מולטימדיה</th>
+                <th>תקציר</th>
+                <th>ספר רכב</th>
+            </tr>
+            <tr th:each="model: ${brand.carModels}">
+                <td th:text="${model.serviceListBook}">1</td>
+                <td th:text="${model.guarantyBook}">2</td>
+                <td th:text="${model.maintenanceBook}">3</td>
+                <td th:text="${model.multimediaBook}">4</td>
+                <td th:text="${model.shortBook}">5</td>
+                <td th:text="${model.fullBook}">6</td>
+                <th th:text="${model.name}">1st period</th>
+            </tr>
+        </table>
+    </div>
+
+  </div>
+  
+</div>
+
+
+
+</body>
+</html>

@@ -272,7 +272,7 @@
       },
       {
         "name": "Altima",
-        "canBeSkipped": true,
+        "canBeSkipped": false,
         "licenceNumber": "83251302",
         "bookUrls": {
           "fullBook": {
@@ -309,7 +309,7 @@
       },
       {
         "name": "Maxima",
-        "canBeSkipped": true,
+        "canBeSkipped": false,
         "licenceNumber": "83105602",
         "bookUrls": {
           "fullBook": {
