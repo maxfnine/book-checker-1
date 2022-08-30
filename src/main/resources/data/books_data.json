@@ -272,7 +272,7 @@
       },
       {
         "name": "Altima",
-        "canBeSkipped": false,
+        "canBeSkipped": true,
         "licenceNumber": "83251302",
         "bookUrls": {
           "fullBook": {
@@ -309,7 +309,7 @@
       },
       {
         "name": "Maxima",
-        "canBeSkipped": false,
+        "canBeSkipped": true,
         "licenceNumber": "83105602",
         "bookUrls": {
           "fullBook": {
@@ -382,7 +382,7 @@
         }
       },
       {
-        "name": "Quashqai",
+        "name": "Qashqai",
         "canBeSkipped": false,
         "licenceNumber": "83191102",
         "bookUrls": {

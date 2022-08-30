@@ -1,10 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+
 <head>
     <meta charset="UTF-8">
-    <title>Book Checker</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual Book Checker</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
 </head>
+
 <body>
-<h1>Book Checker</h1>
+    <div class="main">
+        <form class="brand">
+            <img th:src="@{/img/renault.png}"
+                alt="" class="brand-img">
+            <div class="input-link">
+                <input type="number" id="renault-input" maxlength="8">
+                <button href="#" id="renault-link" target="_blank">Open Link</button>
+            </div>
+        </form>
+        <form class="brand">
+            <img th:src="@{/img/dacia.png}" alt=""
+                class="brand-img">
+            <div class="input-link">
+                <input type="number" id="dacia-input" maxlength="8">
+                <button href="#" id="dacia-link" target="_blank">Open Link</button>
+            </div>
+        </form>
+        <form class="brand">
+            <img th:src="@{/img/nissan.png}" alt="" class="brand-img">
+            <div class="input-link">
+                <input type="number" id="nissan-input" maxlength="8">
+                <button href="#" id="nissan-link" target="_blank">Open Link</button>
+            </div>
+        </form>
+        <form class="brand">
+            <img th:src="@{/img/infiniti.png}" alt="" class="brand-img">
+            <div class="input-link">
+                <input type="number" id="infiniti-input" maxlength="8">
+                <button href="#" id="infiniti-link" target="_blank">Open Link</button>
+            </div>
+        </form>
+    </div>
+    <script th:src="@{scripts/script.js}"></script>
 </body>
+
 </html>
