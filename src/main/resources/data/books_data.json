@@ -2,6 +2,7 @@
   {
     "brandName": "Renault",
     "baseURL": "https://cloud.info.renault.co.il/catalog?m=",
+    "logoPath": "/img/renault.png",
     "canSkip": true,
     "models": [
       {
@@ -194,6 +195,7 @@
   {
     "brandName": "Nissan",
     "baseURL": "https://cloud.info.lease4u.co.il/platenumber?m=",
+    "logoPath": "/img/nissan.png",
     "canSkip": false,
     "models": [
       {
@@ -460,6 +462,7 @@
   {
     "brandName": "Dacia",
     "baseURL": "https://cloud.info.dacia.co.il/catalog?m=",
+    "logoPath": "/img/dacia.png",
     "canSkip": true,
     "models": [
       {
@@ -578,6 +581,7 @@
   {
     "brandName": "Infiniti",
     "baseURL": "https://cloud.info.infiniti-cars.co.il/catalog?m=",
+    "logoPath": "/img/infiniti.png",
     "canSkip": true,
     "models": [
       {

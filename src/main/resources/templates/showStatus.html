@@ -14,8 +14,10 @@
   <div class="status-tables">
     <div th:each="brand: ${brands}" class="tables-container">
         <h2 th:text="${brand.brandName}"></h2>
+        <img th:src="@{${brand.logoPath}}" alt="${brand.brandName}">
         <table  class="brand-table">
             <tr>
+                <th>מס' רישוי</th>
                 <th>רשימת מרכזי שירות</th>
                 <th>חוברת אחריות</th>
                 <th>טיפולים</th>
@@ -24,6 +26,7 @@
                 <th>ספר רכב</th>
             </tr>
             <tr th:each="model: ${brand.carModels}">
+                <td> <a th:href="@{${brand.baseUrl+model.licenceNumber}}" th:text="${model.licenceNumber}" target="_blank"></a></td>
                 <td th:text="${model.serviceListBook}">1</td>
                 <td th:text="${model.guarantyBook}">2</td>
                 <td th:text="${model.maintenanceBook}">3</td>

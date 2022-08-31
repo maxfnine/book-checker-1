@@ -6,6 +6,7 @@ import java.util.List;
 public class BrandModelOutput {
     private String brandName;
     private String logoPath;
+    private String baseUrl;
     private List<CarModelOutput> carModels=new ArrayList<>();
 
     public String getBrandName() {
@@ -34,6 +35,20 @@ public class BrandModelOutput {
 
     public BrandModelOutput(String brandName) {
         this.brandName = brandName;
+    }
+
+    public BrandModelOutput(String brandName, String logoPath, String baseUrl) {
+        this.brandName = brandName;
+        this.logoPath = logoPath;
+        this.baseUrl = baseUrl;
+    }
+
+    public String getBaseUrl() {
+        return baseUrl;
+    }
+
+    public void setBaseUrl(String baseUrl) {
+        this.baseUrl = baseUrl;
     }
 
     public BrandModelOutput() {

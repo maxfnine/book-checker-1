@@ -56,7 +56,7 @@ public class BooksServiceJSONFile {
     }
 
     private BrandModelOutput validateBrand(BrandModel brandModel) {
-        BrandModelOutput brandModelOutput = new BrandModelOutput(brandModel.getBrandName());
+        BrandModelOutput brandModelOutput = new BrandModelOutput(brandModel.getBrandName(),brandModel.getLogoPath(), brandModel.getBaseURL());
         for(CarModel model:brandModel.getModels()){
             if(model.getCanBeSkipped()){
                 continue;

@@ -4,6 +4,7 @@ public class BrandModel {
     private Boolean canSkip;
     private String brandName;
     private String baseURL;
+    private String logoPath;
     private CarModel[] models;
 
     public String getBrandName() {
@@ -41,7 +42,15 @@ public class BrandModel {
         this.canSkip = canSkip;
     }
 
-    public BrandModel(String brandName, String baseURL, CarModel[] models,Boolean canSkip) {
+    public String getLogoPath() {
+        return logoPath;
+    }
+
+    public void setLogoPath(String logoPath) {
+        this.logoPath = logoPath;
+    }
+
+    public BrandModel(String brandName, String baseURL, CarModel[] models, Boolean canSkip) {
         this.brandName = brandName;
         this.baseURL = baseURL;
         this.models = models;
