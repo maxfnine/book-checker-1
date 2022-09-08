@@ -9,7 +9,10 @@
     <link rel="stylesheet" th:href="@{/css/style.css}">
 </head>
 <body>
-<h1>Books Status</h1>
+<header>
+    <h1>מצב הספרים</h1>
+    <a th:href="@{/}">בדיקת ספרים ידנית</a>
+</header>
 <div class="container">
   <div class="status-tables">
     <div th:each="brand: ${brands}" class="tables-container">
