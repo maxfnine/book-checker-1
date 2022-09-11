@@ -200,75 +200,75 @@
     "models": [
       {
         "name": "Micra",
-        "canBeSkipped": true,
+        "canBeSkipped": false,
         "licenceNumber": "83269502",
         "bookUrls": {
           "fullBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.nissan.co.il/3kQVh4S",
+            "cssQuery": "a[alias=\"ספר רכב כללי\"]"
           },
           "shortBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.nissan.co.il/3GrZUdv",
+            "cssQuery": "a[alias=\"תקציר כללי \"]"
           },
           "multimediaBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.nissan.co.il/3xFY9F6",
+            "cssQuery": "a[alias=\"חוברות מולטימדיה\"]"
           },
           "maintenanceBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.nissan.co.il/3BGo95W",
+            "cssQuery": "a[alias=\"מערך טיפולים- 1\"]"
           },
           "guarantyBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.nissan.co.il/3rdMNG3",
+            "cssQuery": "a[alias=\"חוברת אחריות\"]"
           },
           "serviceListBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.nissan.co.il/3Qwf32l",
+            "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
           }
         }
       },
       {
         "name": "Sentra",
-        "canBeSkipped": true,
+        "canBeSkipped": false,
         "licenceNumber": "12747103",
         "bookUrls": {
           "fullBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.nissan.co.il/3cvVJ6P",
+            "cssQuery": "a[alias=\"ספר רכב כללי\"]"
           },
           "shortBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.nissan.co.il/3y5bp6E",
+            "cssQuery": "a[alias=\"תקציר כללי \"]"
           },
           "multimediaBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.nissan.co.il/3xFY9F6",
+            "cssQuery": "a[alias=\"חוברות מולטימדיה\"]"
           },
           "maintenanceBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.nissan.co.il/36YsOBW",
+            "cssQuery": "a[alias=\"מערך טיפולים- 1\"]"
           },
           "guarantyBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.nissan.co.il/3rdMNG3",
+            "cssQuery": "a[alias=\"חוברת אחריות\"]"
           },
           "serviceListBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.nissan.co.il/3IpaNyG",
+            "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
           }
         }
       },
@@ -415,7 +415,7 @@
           },
           "serviceListBook": {
             "required": true,
-            "url": "https://my.nissan.co.il/3pybFIp",
+            "url": "https://my.nissan.co.il/3P0uboe",
             "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
           }
         }
@@ -427,7 +427,7 @@
         "bookUrls": {
           "fullBook": {
             "required": true,
-            "url": "https://my.nissan.co.il/3kbTEOK",
+            "url": "https://my.nissan.co.il/3Q5LaF6",
             "cssQuery": "a[alias=\"ספר רכב כללי\"]"
           },
           "shortBook": {

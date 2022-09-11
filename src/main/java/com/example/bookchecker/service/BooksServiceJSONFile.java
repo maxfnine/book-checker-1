@@ -204,7 +204,7 @@ public class BooksServiceJSONFile {
                         break;
                     }
                 }
-                if(outputModel.getFullBook()==BookStatus.NOT_REQUIRED){
+                if(outputModel.getShortBook()==BookStatus.NOT_REQUIRED){
                     outputModel.setShortBook(BookStatus.CHANGED);
                 }
             }
