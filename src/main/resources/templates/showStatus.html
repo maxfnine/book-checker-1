@@ -27,15 +27,46 @@
                 <th>מולטימדיה</th>
                 <th>תקציר</th>
                 <th>ספר רכב</th>
+                <th>שם הדגם</th>
             </tr>
             <tr th:each="model: ${brand.carModels}">
                 <td> <a th:href="@{${brand.baseUrl+model.licenceNumber}}" th:text="${model.licenceNumber}" target="_blank"></a></td>
-                <td th:text="${model.serviceListBook}">1</td>
-                <td th:text="${model.guarantyBook}">2</td>
-                <td th:text="${model.maintenanceBook}">3</td>
-                <td th:text="${model.multimediaBook}">4</td>
-                <td th:text="${model.shortBook}">5</td>
-                <td th:text="${model.fullBook}">6</td>
+                <th:block th:switch="${model.serviceListBook}">
+                    <td th:case="${T(com.example.bookchecker.model.dto.BookStatus).PRESENT}" class="present">ספר נמצא</td>
+                    <td th:case="${T(com.example.bookchecker.model.dto.BookStatus).MISSING}" class="missing">ספר חסר</td>
+                    <td th:case="${T(com.example.bookchecker.model.dto.BookStatus).CHANGED}" class="changed">הקישור השתנה</td>
+                    <td th:case="${T(com.example.bookchecker.model.dto.BookStatus).NOT_REQUIRED}" class="not-required">לא נדרש</td>
+                </th:block>
+                <th:block th:switch="${model.guarantyBook}">
+                    <td th:case="${T(com.example.bookchecker.model.dto.BookStatus).PRESENT}" class="present">ספר נמצא</td>
+                    <td th:case="${T(com.example.bookchecker.model.dto.BookStatus).MISSING}" class="missing">ספר חסר</td>
+                    <td th:case="${T(com.example.bookchecker.model.dto.BookStatus).CHANGED}" class="changed">הקישור השתנה</td>
+                    <td th:case="${T(com.example.bookchecker.model.dto.BookStatus).NOT_REQUIRED}" class="not-required">לא נדרש</td>
+                </th:block>
+                <th:block th:switch="${model.maintenanceBook}">
+                    <td th:case="${T(com.example.bookchecker.model.dto.BookStatus).PRESENT}" class="present">ספר נמצא</td>
+                    <td th:case="${T(com.example.bookchecker.model.dto.BookStatus).MISSING}" class="missing">ספר חסר</td>
+                    <td th:case="${T(com.example.bookchecker.model.dto.BookStatus).CHANGED}" class="changed">הקישור השתנה</td>
+                    <td th:case="${T(com.example.bookchecker.model.dto.BookStatus).NOT_REQUIRED}" class="not-required">לא נדרש</td>
+                </th:block>
+                <th:block th:switch="${model.multimediaBook}">
+                    <td th:case="${T(com.example.bookchecker.model.dto.BookStatus).PRESENT}" class="present">ספר נמצא</td>
+                    <td th:case="${T(com.example.bookchecker.model.dto.BookStatus).MISSING}" class="missing">ספר חסר</td>
+                    <td th:case="${T(com.example.bookchecker.model.dto.BookStatus).CHANGED}" class="changed">הקישור השתנה</td>
+                    <td th:case="${T(com.example.bookchecker.model.dto.BookStatus).NOT_REQUIRED}" class="not-required">לא נדרש</td>
+                </th:block>
+                <th:block th:switch="${model.shortBook}">
+                    <td th:case="${T(com.example.bookchecker.model.dto.BookStatus).PRESENT}" class="present">ספר נמצא</td>
+                    <td th:case="${T(com.example.bookchecker.model.dto.BookStatus).MISSING}" class="missing">ספר חסר</td>
+                    <td th:case="${T(com.example.bookchecker.model.dto.BookStatus).CHANGED}" class="changed">הקישור השתנה</td>
+                    <td th:case="${T(com.example.bookchecker.model.dto.BookStatus).NOT_REQUIRED}" class="not-required">לא נדרש</td>
+                </th:block>
+                <th:block th:switch="${model.fullBook}">
+                    <td th:case="${T(com.example.bookchecker.model.dto.BookStatus).PRESENT}" class="present">ספר נמצא</td>
+                    <td th:case="${T(com.example.bookchecker.model.dto.BookStatus).MISSING}" class="missing">ספר חסר</td>
+                    <td th:case="${T(com.example.bookchecker.model.dto.BookStatus).CHANGED}" class="changed">הקישור השתנה</td>
+                    <td th:case="${T(com.example.bookchecker.model.dto.BookStatus).NOT_REQUIRED}" class="not-required">לא נדרש</td>
+                </th:block>
                 <th th:text="${model.name}">1st period</th>
             </tr>
         </table>
