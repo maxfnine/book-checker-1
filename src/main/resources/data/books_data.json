@@ -3,7 +3,7 @@
     "brandName": "Renault",
     "baseURL": "https://cloud.info.renault.co.il/catalog?m=",
     "logoPath": "/img/renault.png",
-    "canSkip": true,
+    "canSkip": false,
     "models": [
       {
         "name": "Clio",
@@ -12,33 +12,33 @@
         "bookUrls": {
           "fullBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/2VeSSq3",
+            "cssQuery": "a[alias=\"ספר רכב כללי\"]"
           },
           "shortBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/3Fqtu1L",
+            "cssQuery": "a[alias=\"תקציר כללי \"]"
           },
           "multimediaBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/3yvW9Q8",
+            "cssQuery": "a[alias=\"חוברות מולטימדיה\"]"
           },
           "maintenanceBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/3rNEilc",
+            "cssQuery": "a[alias=\"מערך טיפולים- 1\"]"
           },
           "guarantyBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/2TMrjUm",
+            "cssQuery": "a[alias=\"חוברת אחריות\"]"
           },
           "serviceListBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/3cbyzT8",
+            "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
           }
         }
       },
@@ -49,33 +49,33 @@
         "bookUrls": {
           "fullBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/3rNDQDL",
+            "cssQuery": "a[alias=\"ספר רכב כללי\"]"
           },
           "shortBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/3RGF5kj",
+            "cssQuery": "a[alias=\"תקציר כללי \"]"
           },
           "multimediaBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/3yvW9Q8",
+            "cssQuery": "a[alias=\"חוברות מולטימדיה\"]"
           },
           "maintenanceBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/3rNEilc",
+            "cssQuery": "a[alias=\"מערך טיפולים- 1\"]"
           },
           "guarantyBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/2TMrjUm",
+            "cssQuery": "a[alias=\"חוברת אחריות\"]"
           },
           "serviceListBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/3QWE46P",
+            "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
           }
         }
       },
@@ -86,33 +86,33 @@
         "bookUrls": {
           "fullBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/3fqtDIq",
+            "cssQuery": "a[alias=\"ספר רכב כללי\"]"
           },
           "shortBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/3Fqe2CS",
+            "cssQuery": "a[alias=\"תקציר כללי \"]"
           },
           "multimediaBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/3yvW9Q8",
+            "cssQuery": "a[alias=\"חוברות מולטימדיה\"]"
           },
           "maintenanceBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/3rNEilc",
+            "cssQuery": "a[alias=\"מערך טיפולים- 1\"]"
           },
           "guarantyBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/2TMrjUm",
+            "cssQuery": "a[alias=\"חוברת אחריות\"]"
           },
           "serviceListBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/3QGmmVu",
+            "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
           }
         }
       },
@@ -123,33 +123,33 @@
         "bookUrls": {
           "fullBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/3C8t2ER",
+            "cssQuery": "a[alias=\"ספר רכב כללי\"]"
           },
           "shortBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/3AQW3VM",
+            "cssQuery": "a[alias=\"תקציר כללי \"]"
           },
           "multimediaBook": {
-            "required": false,
-            "url": "",
-            "cssQuery": ""
+            "required": true,
+            "url": "https://my.renault.co.il/3DeAGk4",
+            "cssQuery": "a[alias=\"ספר מולטימדיה- מקומי\"]"
           },
           "maintenanceBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/37esaQL",
+            "cssQuery": "a[alias=\"מערך טיפולים- 1\"]"
           },
           "guarantyBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/2TMrjUm",
+            "cssQuery": "a[alias=\"חוברת אחריות\"]"
           },
           "serviceListBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/3pxKI7I",
+            "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
           }
         }
       },
@@ -160,33 +160,33 @@
         "bookUrls": {
           "fullBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/3lruFHU",
+            "cssQuery": "a[alias=\"ספר רכב כללי\"]"
           },
           "shortBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/3AQW3VM",
+            "cssQuery": "a[alias=\"תקציר כללי \"]"
           },
           "multimediaBook": {
-            "required": false,
-            "url": "",
-            "cssQuery": ""
+            "required": true,
+            "url": "https://my.renault.co.il/3L84j8Q",
+            "cssQuery": "a[alias=\"ספר מולטימדיה- מקומי\"]"
           },
           "maintenanceBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/3CdBouQ",
+            "cssQuery": "a[alias=\"מערך טיפולים- 1\"]"
           },
           "guarantyBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/2TMrjUm",
+            "cssQuery": "a[alias=\"חוברת אחריות\"]"
           },
           "serviceListBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/3QEbvLJ",
+            "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
           }
         }
       }
@@ -463,7 +463,7 @@
     "brandName": "Dacia",
     "baseURL": "https://cloud.info.dacia.co.il/catalog?m=",
     "logoPath": "/img/dacia.png",
-    "canSkip": true,
+    "canSkip": false,
     "models": [
       {
         "name": "Duster",
@@ -472,33 +472,33 @@
         "bookUrls": {
           "fullBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3sHpdDv",
+            "cssQuery": "a[alias=\"ספר רכב כללי\"]"
           },
           "shortBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3x84nQi",
+            "cssQuery": "a[alias=\"תקציר כללי \"]"
           },
           "multimediaBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3pAbexs",
+            "cssQuery": "a[alias=\"ספר מולטימדיה- מקומי\"]"
           },
           "maintenanceBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3vGYg3v",
+            "cssQuery": "a[alias=\"מערך טיפולים- 1\"]"
           },
           "guarantyBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3Mv2d21",
+            "cssQuery": "a[alias=\"חוברת אחריות\"]"
           },
           "serviceListBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3QMSG8J",
+            "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
           }
         }
       },
@@ -509,33 +509,33 @@
         "bookUrls": {
           "fullBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3aJxPnm",
+            "cssQuery": "a[alias=\"ספר רכב כללי\"]"
           },
           "shortBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3Iv6oKI",
+            "cssQuery": "a[alias=\"תקציר כללי \"]"
           },
           "multimediaBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3pAbexs",
+            "cssQuery": "a[alias=\"ספר מולטימדיה- מקומי\"]"
           },
           "maintenanceBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3nOZmXu",
+            "cssQuery": "a[alias=\"מערך טיפולים- 1\"]"
           },
           "guarantyBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3asD6j7",
+            "cssQuery": "a[alias=\"חוברת אחריות\"]"
           },
           "serviceListBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3dsbBHv",
+            "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
           }
         }
       },
@@ -546,33 +546,33 @@
         "bookUrls": {
           "fullBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3AdTaws",
+            "cssQuery": "a[alias=\"ספר רכב כללי\"]"
           },
           "shortBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3nmtppK",
+            "cssQuery": "a[alias=\"תקציר כללי \"]"
           },
           "multimediaBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/2X1c8br",
+            "cssQuery": "a[alias=\"חוברות מולטימדיה\"]"
           },
           "maintenanceBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3ykPZBw",
+            "cssQuery": "a[alias=\"מערך טיפולים- 1\"]"
           },
           "guarantyBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/2UMZYlt",
+            "cssQuery": "a[alias=\"חוברת אחריות\"]"
           },
           "serviceListBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3SQzCZ3",
+            "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
           }
         }
       }
@@ -582,7 +582,7 @@
     "brandName": "Infiniti",
     "baseURL": "https://cloud.info.infiniti-cars.co.il/catalog?m=",
     "logoPath": "/img/infiniti.png",
-    "canSkip": true,
+    "canSkip": false,
     "models": [
       {
         "name": "QX50",
@@ -591,33 +591,33 @@
         "bookUrls": {
           "fullBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3sHpdDv",
+            "cssQuery": "a[alias=\"ספר רכב כללי\"]"
           },
           "shortBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3x84nQi",
+            "cssQuery": "a[alias=\"תקציר כללי \"]"
           },
           "multimediaBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3pAbexs",
+            "cssQuery": "a[alias=\"ספר מולטימדיה- מקומי\"]"
           },
           "maintenanceBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3vGYg3v",
+            "cssQuery": "a[alias=\"מערך טיפולים- 1\"]"
           },
           "guarantyBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3Mv2d21",
+            "cssQuery": "a[alias=\"חוברת אחריות\"]"
           },
           "serviceListBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3QMSG8J",
+            "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
           }
         }
       },
@@ -628,33 +628,33 @@
         "bookUrls": {
           "fullBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3sHpdDv",
+            "cssQuery": "a[alias=\"ספר רכב כללי\"]"
           },
           "shortBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3x84nQi",
+            "cssQuery": "a[alias=\"תקציר כללי \"]"
           },
           "multimediaBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3pAbexs",
+            "cssQuery": "a[alias=\"ספר מולטימדיה- מקומי\"]"
           },
           "maintenanceBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3vGYg3v",
+            "cssQuery": "a[alias=\"מערך טיפולים- 1\"]"
           },
           "guarantyBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3Mv2d21",
+            "cssQuery": "a[alias=\"חוברת אחריות\"]"
           },
           "serviceListBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3QMSG8J",
+            "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
           }
         }
       },
@@ -665,33 +665,33 @@
         "bookUrls": {
           "fullBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3sHpdDv",
+            "cssQuery": "a[alias=\"ספר רכב כללי\"]"
           },
           "shortBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3x84nQi",
+            "cssQuery": "a[alias=\"תקציר כללי \"]"
           },
           "multimediaBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3pAbexs",
+            "cssQuery": "a[alias=\"ספר מולטימדיה- מקומי\"]"
           },
           "maintenanceBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3vGYg3v",
+            "cssQuery": "a[alias=\"מערך טיפולים- 1\"]"
           },
           "guarantyBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3Mv2d21",
+            "cssQuery": "a[alias=\"חוברת אחריות\"]"
           },
           "serviceListBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.dacia.co.il/3QMSG8J",
+            "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
           }
         }
       }
