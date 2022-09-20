@@ -92,16 +92,16 @@ public class BooksServiceJSONFile {
 
     private void processModelUrls(CarModel model, CarModelOutput outputModel, Document doc) {
         BookURLs bookUrls = model.getBookUrls();
-        handleBook(outputModel, doc,bookUrls.getFullBook(),outputModel::getFullBook,outputModel::setFullBook);
-        handleBook(outputModel, doc,bookUrls.getShortBook(),outputModel::getShortBook,outputModel::setShortBook);
-        handleBook(outputModel, doc,bookUrls.getMultimediaBook(),outputModel::getMultimediaBook,outputModel::setMultimediaBook);
-        handleBook(outputModel, doc,bookUrls.getMaintenanceBook(),outputModel::getMaintenanceBook,outputModel::setMaintenanceBook);
-        handleBook(outputModel, doc,bookUrls.getGuarantyBook(),outputModel::getGuarantyBook,outputModel::setGuarantyBook);
-        handleBook(outputModel, doc,bookUrls.getServiceListBook(),outputModel::getServiceListBook,outputModel::setServiceListBook);
+        handleBook( doc,bookUrls.getFullBook(),outputModel::getFullBook,outputModel::setFullBook);
+        handleBook( doc,bookUrls.getShortBook(),outputModel::getShortBook,outputModel::setShortBook);
+        handleBook( doc,bookUrls.getMultimediaBook(),outputModel::getMultimediaBook,outputModel::setMultimediaBook);
+        handleBook(doc,bookUrls.getMaintenanceBook(),outputModel::getMaintenanceBook,outputModel::setMaintenanceBook);
+        handleBook(doc,bookUrls.getGuarantyBook(),outputModel::getGuarantyBook,outputModel::setGuarantyBook);
+        handleBook(doc,bookUrls.getServiceListBook(),outputModel::getServiceListBook,outputModel::setServiceListBook);
         return;
     }
 
-    private void handleBook(CarModelOutput outputModel, Document doc, BookUrl bookUrl, GetValue<BookStatus> getter, SetValue<BookStatus> setter) {
+    private void handleBook( Document doc, BookUrl bookUrl, GetValue<BookStatus> getter, SetValue<BookStatus> setter) {
         Elements bookElements;
         if(!bookUrl.getRequired()){
             setter.setValue(BookStatus.NOT_REQUIRED);
