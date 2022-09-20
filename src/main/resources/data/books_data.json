@@ -3,7 +3,7 @@
     "brandName": "Renault",
     "baseURL": "https://cloud.info.renault.co.il/catalog?m=",
     "logoPath": "/img/renault.png",
-    "canSkip": true,
+    "canSkip": false,
     "models": [
       {
         "name": "Clio",
@@ -12,76 +12,76 @@
         "bookUrls": {
           "fullBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/2VeSSq3",
+            "cssQuery": "a[alias=\"ספר רכב כללי\"]"
           },
           "shortBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/3Fqtu1L",
+            "cssQuery": "a[alias=\"תקציר כללי \"]"
           },
           "multimediaBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/3yvW9Q8",
+            "cssQuery": "a[alias=\"חוברות מולטימדיה\"]"
           },
           "maintenanceBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/3rNEilc",
+            "cssQuery": "a[alias=\"מערך טיפולים- 1\"]"
           },
           "guarantyBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/2TMrjUm",
+            "cssQuery": "a[alias=\"חוברת אחריות\"]"
           },
           "serviceListBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/3cbyzT8",
+            "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
           }
         }
       },
       {
         "name": "Megane",
-        "canBeSkipped": false,
+        "canBeSkipped": true,
         "licenceNumber": "83326001",
         "bookUrls": {
           "fullBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/3rNDQDL",
+            "cssQuery": "a[alias=\"ספר רכב כללי\"]"
           },
           "shortBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/3RGF5kj",
+            "cssQuery": "a[alias=\"תקציר כללי \"]"
           },
           "multimediaBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/3yvW9Q8",
+            "cssQuery": "a[alias=\"חוברות מולטימדיה\"]"
           },
           "maintenanceBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/3rNEilc",
+            "cssQuery": "a[alias=\"מערך טיפולים- 1\"]"
           },
           "guarantyBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/2TMrjUm",
+            "cssQuery": "a[alias=\"חוברת אחריות\"]"
           },
           "serviceListBook": {
             "required": true,
-            "url": "",
-            "cssQuery": ""
+            "url": "https://my.renault.co.il/3QWE46P",
+            "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
           }
         }
       },
       {
         "name": "Captur",
-        "canBeSkipped": false,
+        "canBeSkipped": true,
         "licenceNumber": "83270702",
         "bookUrls": {
           "fullBook": {
@@ -118,7 +118,7 @@
       },
       {
         "name": "Traffic",
-        "canBeSkipped": false,
+        "canBeSkipped": true,
         "licenceNumber": "83342302",
         "bookUrls": {
           "fullBook": {
@@ -155,7 +155,7 @@
       },
       {
         "name": "Master",
-        "canBeSkipped": false,
+        "canBeSkipped": true,
         "licenceNumber": "83211002",
         "bookUrls": {
           "fullBook": {
