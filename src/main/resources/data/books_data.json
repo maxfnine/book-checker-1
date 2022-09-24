@@ -44,7 +44,7 @@
       },
       {
         "name": "Megane",
-        "canBeSkipped": true,
+        "canBeSkipped": false,
         "licenceNumber": "83326001",
         "bookUrls": {
           "fullBook": {
@@ -81,7 +81,7 @@
       },
       {
         "name": "Captur",
-        "canBeSkipped": true,
+        "canBeSkipped": false,
         "licenceNumber": "83270702",
         "bookUrls": {
           "fullBook": {
@@ -118,7 +118,7 @@
       },
       {
         "name": "Traffic",
-        "canBeSkipped": true,
+        "canBeSkipped": false,
         "licenceNumber": "83342302",
         "bookUrls": {
           "fullBook": {
@@ -155,7 +155,7 @@
       },
       {
         "name": "Master",
-        "canBeSkipped": true,
+        "canBeSkipped": false,
         "licenceNumber": "83211002",
         "bookUrls": {
           "fullBook": {

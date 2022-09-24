@@ -1,39 +1,29 @@
 package com.example.bookchecker.service;
 
-import com.example.bookchecker.model.BookURLs;
-import com.example.bookchecker.model.BookUrl;
 import com.example.bookchecker.model.BrandModel;
 import com.example.bookchecker.model.CarModel;
-import com.example.bookchecker.model.dto.BookStatus;
 import com.example.bookchecker.model.dto.BrandModelOutput;
 import com.example.bookchecker.model.dto.CarModelOutput;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.*;
 
 
 @Service
 public class BooksServiceJSONFile {
     private final String BOOKS_JSON_PATH="/data/books_data.json";
     private List<BrandModel> brandModels;
+    private ExecutorService executorService = Executors.newFixedThreadPool(10);
 
-    private interface GetValue<T>{
-        T getValue();
-    }
 
-    private interface SetValue<T>{
-        void setValue(T value);
-    }
 
     @PostConstruct
     private void initData() throws IOException {
@@ -47,6 +37,12 @@ public class BooksServiceJSONFile {
         }
     }
 
+    @PreDestroy
+    private void shutdown(){
+        System.out.println("Shutting down");
+        executorService.shutdown();
+    }
+
     public List<BrandModelOutput> checkBooks(){
         List<BrandModelOutput> result = new ArrayList<BrandModelOutput>();
         for(BrandModel brandModel:brandModels){
@@ -56,7 +52,7 @@ public class BooksServiceJSONFile {
                 if(brandModel.getCanSkip()){
                     continue;
                 }else{
-                    BrandModelOutput brandResults= validateBrand(brandModel);
+                    BrandModelOutput brandResults = validateBrand(brandModel);
                     result.add(brandResults);
                 }
             }
@@ -66,61 +62,39 @@ public class BooksServiceJSONFile {
 
     private BrandModelOutput validateBrand(BrandModel brandModel) {
         BrandModelOutput brandModelOutput = new BrandModelOutput(brandModel.getBrandName(),brandModel.getLogoPath(), brandModel.getBaseURL());
+        List<CarModelCheckerTask> modelsToCheck=new ArrayList<>();
         for(CarModel model:brandModel.getModels()){
             if(model.getCanBeSkipped()){
                 continue;
             }else{
-                CarModelOutput modelOutput= checkCarModel(brandModel.getBaseURL(),model);
-                brandModelOutput.getCarModels().add(modelOutput);
+                CarModelOutput outputModel = new CarModelOutput(model.getName(),model.getLicenceNumber());
+                modelsToCheck.add(new CarModelCheckerTask(brandModel.getBaseURL(),model,outputModel));
             }
+        }
 
+        try {
+          List<Future<CarModelOutput>> result =  executorService.invokeAll(modelsToCheck);
+            result.forEach((item)->{
+                try {
+                    brandModelOutput.getCarModels().add(item.get());
+                } catch (InterruptedException e) {
+                    System.out.println("InterruptedException when getting results");
+                    e.printStackTrace();
+                } catch (ExecutionException e) {
+                    System.out.println("ExecutionException when getting results");
+                    e.printStackTrace();
+                }
+            });
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (CancellationException e) {
+            e.printStackTrace();
         }
         return brandModelOutput;
     }
 
-    private CarModelOutput checkCarModel(String baseURL, CarModel model) {
-        CarModelOutput outputModel = new CarModelOutput(model.getName(),model.getLicenceNumber());
-        try {
-            Document doc = Jsoup.connect(baseURL+model.getLicenceNumber()).get();
-            processModelUrls(model,outputModel,doc);
-            return outputModel;
-        } catch (IOException e) {
-            e.printStackTrace();
-            return outputModel;
-        }
-    }
 
-    private void processModelUrls(CarModel model, CarModelOutput outputModel, Document doc) {
-        BookURLs bookUrls = model.getBookUrls();
-        handleBook( doc,bookUrls.getFullBook(),outputModel::getFullBook,outputModel::setFullBook);
-        handleBook( doc,bookUrls.getShortBook(),outputModel::getShortBook,outputModel::setShortBook);
-        handleBook( doc,bookUrls.getMultimediaBook(),outputModel::getMultimediaBook,outputModel::setMultimediaBook);
-        handleBook(doc,bookUrls.getMaintenanceBook(),outputModel::getMaintenanceBook,outputModel::setMaintenanceBook);
-        handleBook(doc,bookUrls.getGuarantyBook(),outputModel::getGuarantyBook,outputModel::setGuarantyBook);
-        handleBook(doc,bookUrls.getServiceListBook(),outputModel::getServiceListBook,outputModel::setServiceListBook);
-        return;
-    }
 
-    private void handleBook( Document doc, BookUrl bookUrl, GetValue<BookStatus> getter, SetValue<BookStatus> setter) {
-        Elements bookElements;
-        if(!bookUrl.getRequired()){
-            setter.setValue(BookStatus.NOT_REQUIRED);
-        }else{
-            bookElements = doc.select(bookUrl.getCssQuery());
-            if(bookElements.isEmpty()){
-                setter.setValue(BookStatus.MISSING);
-            }else{
-                for(Element element:bookElements){
-                    if(element.attr("href").equals(bookUrl.getUrl())){
-                        setter.setValue(BookStatus.PRESENT);
-                        break;
-                    }
-                }
-                if(getter.getValue()==BookStatus.NOT_REQUIRED){
-                    setter.setValue(BookStatus.CHANGED);
-                }
-            }
-        }
-    }
+
 
 }
