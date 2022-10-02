@@ -6,6 +6,43 @@
     "canSkip": false,
     "models": [
       {
+        "name": "Arkana Hybrid",
+        "canBeSkipped": false,
+        "licenceNumber": "83349102",
+        "bookUrls": {
+          "fullBook": {
+            "required": true,
+            "url": "https://my.renault.co.il/3PsZ0Bp",
+            "cssQuery": "a[alias=\"הנחיות שימוש- הנעה היברידית ספר רכב\"]"
+          },
+          "shortBook": {
+            "required": true,
+            "url": "https://my.renault.co.il/3pp45Qk",
+            "cssQuery": "a[alias=\"הנחיות שימוש- הנעה היברידית תקציר\"]"
+          },
+          "multimediaBook": {
+            "required": true,
+            "url": "https://my.renault.co.il/3pAueMa",
+            "cssQuery": "a[alias=\"חוברות מולטימדיה\"]"
+          },
+          "maintenanceBook": {
+            "required": true,
+            "url": "https://my.renault.co.il/3PpuwAh",
+            "cssQuery": "a[alias=\"מערך טיפולים- 1\"]"
+          },
+          "guarantyBook": {
+            "required": true,
+            "url": "https://my.renault.co.il/3QZnZxf",
+            "cssQuery": "a[alias=\"חוברת אחריות\"]"
+          },
+          "serviceListBook": {
+            "required": true,
+            "url": "https://my.renault.co.il/3dCoyyN",
+            "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
+          }
+        }
+      },
+      {
         "name": "Clio",
         "canBeSkipped": false,
         "licenceNumber": "83267802",
