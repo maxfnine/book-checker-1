@@ -191,7 +191,7 @@
         }
       },
       {
-        "name": "Master",
+        "name": "Master DR",
         "canBeSkipped": false,
         "licenceNumber": "83211002",
         "bookUrls": {
@@ -223,6 +223,43 @@
           "serviceListBook": {
             "required": true,
             "url": "https://my.renault.co.il/3QEbvLJ",
+            "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
+          }
+        }
+      },
+      {
+        "name": "Master SR",
+        "canBeSkipped": false,
+        "licenceNumber": "12231103",
+        "bookUrls": {
+          "fullBook": {
+            "required": true,
+            "url": "https://my.renault.co.il/3OwyO9A",
+            "cssQuery": "a[alias=\"ספר רכב כללי\"]"
+          },
+          "shortBook": {
+            "required": true,
+            "url": "https://my.renault.co.il/3LueXWR",
+            "cssQuery": "a[alias=\"תקציר כללי \"]"
+          },
+          "multimediaBook": {
+            "required": true,
+            "url": "https://my.renault.co.il/3BtYoYo",
+            "cssQuery": "a[alias=\"ספר מולטימדיה- מקומי\"]"
+          },
+          "maintenanceBook": {
+            "required": true,
+            "url": "https://my.renault.co.il/3OAm3ec",
+            "cssQuery": "a[alias=\"מערך טיפולים- 1\"]"
+          },
+          "guarantyBook": {
+            "required": true,
+            "url": "https://my.renault.co.il/2TMrjUm",
+            "cssQuery": "a[alias=\"חוברת אחריות\"]"
+          },
+          "serviceListBook": {
+            "required": true,
+            "url": "https://my.renault.co.il/3c5EQjf",
             "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
           }
         }
