@@ -154,6 +154,43 @@
         }
       },
       {
+        "name": "Koleos",
+        "canBeSkipped": false,
+        "licenceNumber": "28456903",
+        "bookUrls": {
+          "fullBook": {
+            "required": true,
+            "url": "https://my.renault.co.il/3fqtDIq",
+            "cssQuery": "a[alias=\"ספר רכב כללי\"]"
+          },
+          "shortBook": {
+            "required": true,
+            "url": "https://my.renault.co.il/3Fqe2CS",
+            "cssQuery": "a[alias=\"תקציר כללי \"]"
+          },
+          "multimediaBook": {
+            "required": true,
+            "url": "https://my.renault.co.il/3yvW9Q8",
+            "cssQuery": "a[alias=\"חוברות מולטימדיה\"]"
+          },
+          "maintenanceBook": {
+            "required": true,
+            "url": "https://my.renault.co.il/3rNEilc",
+            "cssQuery": "a[alias=\"מערך טיפולים- 1\"]"
+          },
+          "guarantyBook": {
+            "required": true,
+            "url": "https://my.renault.co.il/2TMrjUm",
+            "cssQuery": "a[alias=\"חוברת אחריות\"]"
+          },
+          "serviceListBook": {
+            "required": true,
+            "url": "https://my.renault.co.il/3QGmmVu",
+            "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
+          }
+        }
+      },
+      {
         "name": "Traffic",
         "canBeSkipped": false,
         "licenceNumber": "83342302",
