@@ -6,6 +6,43 @@
     "canSkip": false,
     "models": [
       {
+        "name": "Arkana Petrol",
+        "canBeSkipped": false,
+        "licenceNumber": "12205003",
+        "bookUrls": {
+          "fullBook": {
+            "required": true,
+            "url": "https://my.renault.co.il/3P0wI1w",
+            "cssQuery": "a[alias=\"ספר רכב כללי\"]"
+          },
+          "shortBook": {
+            "required": true,
+            "url": "https://my.renault.co.il/3JVjqBR",
+            "cssQuery": "a[alias=\"תקציר כללי \"]"
+          },
+          "multimediaBook": {
+            "required": true,
+            "url": "https://my.renault.co.il/3AdVpkN",
+            "cssQuery": "a[alias=\"חוברות מולטימדיה\"]"
+          },
+          "maintenanceBook": {
+            "required": true,
+            "url": "https://my.renault.co.il/3PlHuz1",
+            "cssQuery": "a[alias=\"מערך טיפולים- 1\"]"
+          },
+          "guarantyBook": {
+            "required": true,
+            "url": "https://my.renault.co.il/3bY6I8l",
+            "cssQuery": "a[alias=\"חוברת אחריות\"]"
+          },
+          "serviceListBook": {
+            "required": true,
+            "url": "https://my.renault.co.il/3pllZ6u",
+            "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
+          }
+        }
+      },
+      {
         "name": "Arkana Hybrid",
         "canBeSkipped": false,
         "licenceNumber": "83349102",
@@ -461,6 +498,43 @@
         "name": "Juke",
         "canBeSkipped": false,
         "licenceNumber": "83287702",
+        "bookUrls": {
+          "fullBook": {
+            "required": true,
+            "url": "https://my.nissan.co.il/3zxjr8w",
+            "cssQuery": "a[alias=\"ספר רכב כללי\"]"
+          },
+          "shortBook": {
+            "required": true,
+            "url": "https://my.nissan.co.il/3AMFZEf",
+            "cssQuery": "a[alias=\"תקציר כללי \"]"
+          },
+          "multimediaBook": {
+            "required": true,
+            "url": "https://my.nissan.co.il/3xFY9F6",
+            "cssQuery": "a[alias=\"חוברות מולטימדיה\"]"
+          },
+          "maintenanceBook": {
+            "required": true,
+            "url": "https://my.nissan.co.il/3kRLOu5",
+            "cssQuery": "a[alias=\"מערך טיפולים- 1\"]"
+          },
+          "guarantyBook": {
+            "required": true,
+            "url": "https://my.nissan.co.il/3rdMNG3",
+            "cssQuery": "a[alias=\"חוברת אחריות\"]"
+          },
+          "serviceListBook": {
+            "required": true,
+            "url": "https://my.nissan.co.il/3PjnSfd",
+            "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
+          }
+        }
+      },
+      {
+        "name": "Juke Hybrid",
+        "canBeSkipped": false,
+        "licenceNumber": "28470203",
         "bookUrls": {
           "fullBook": {
             "required": true,
