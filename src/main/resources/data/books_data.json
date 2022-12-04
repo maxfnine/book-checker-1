@@ -538,17 +538,17 @@
         "bookUrls": {
           "fullBook": {
             "required": true,
-            "url": "https://my.nissan.co.il/3zxjr8w",
+            "url": "https://my.nissan.co.il/3SX12vX",
             "cssQuery": "a[alias=\"ספר רכב כללי\"]"
           },
           "shortBook": {
             "required": true,
-            "url": "https://my.nissan.co.il/3AMFZEf",
+            "url": "https://my.nissan.co.il/3MmWw7H",
             "cssQuery": "a[alias=\"תקציר כללי \"]"
           },
           "multimediaBook": {
             "required": true,
-            "url": "https://my.nissan.co.il/3xFY9F6",
+            "url": "https://my.nissan.co.il/3ANN2h7",
             "cssQuery": "a[alias=\"חוברות מולטימדיה\"]"
           },
           "maintenanceBook": {
@@ -563,7 +563,7 @@
           },
           "serviceListBook": {
             "required": true,
-            "url": "https://my.nissan.co.il/3PjnSfd",
+            "url": "https://my.nissan.co.il/3D1ugUZ",
             "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
           }
         }
@@ -585,7 +585,7 @@
           },
           "multimediaBook": {
             "required": true,
-            "url": "https://my.nissan.co.il/3xFY9F6",
+            "url": "https://my.nissan.co.il/3XCE8wv",
             "cssQuery": "a[alias=\"חוברות מולטימדיה\"]"
           },
           "maintenanceBook": {
