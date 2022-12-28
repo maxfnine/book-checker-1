@@ -883,5 +883,124 @@
         }
       }
     ]
+  },
+  {
+    "brandName": "Chery",
+    "baseURL": "https://cloud.info.cheryisrael.co.il/catalog?m=",
+    "logoPath": "/img/chery.png",
+    "canSkip": false,
+    "models": [
+      {
+        "name": "FX",
+        "canBeSkipped": false,
+        "licenceNumber": "32128803",
+        "bookUrls": {
+          "fullBook": {
+            "required": true,
+            "url": "https://bit.ly/3gn5ia5",
+            "cssQuery": "a[alias=\"ספר רכב כללי\"]"
+          },
+          "shortBook": {
+            "required": true,
+            "url": "https://bit.ly/3P1CNf2",
+            "cssQuery": "a[alias=\"תקציר כללי \"]"
+          },
+          "multimediaBook": {
+            "required": false,
+            "url": "https://my.dacia.co.il/3pAbexs",
+            "cssQuery": "a[alias=\"ספר מולטימדיה- מקומי\"]"
+          },
+          "maintenanceBook": {
+            "required": true,
+            "url": "https://bit.ly/3VdkvcP",
+            "cssQuery": "a[alias=\"מערך טיפולים- 1\"]"
+          },
+          "guarantyBook": {
+            "required": true,
+            "url": "https://bit.ly/3FODaFn",
+            "cssQuery": "a[alias=\"חוברת אחריות\"]"
+          },
+          "serviceListBook": {
+            "required": true,
+            "url": "https://bit.ly/3En2UrT",
+            "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
+          }
+        }
+      },
+      {
+        "name": "Tiggo 7",
+        "canBeSkipped": false,
+        "licenceNumber": "32109703",
+        "bookUrls": {
+          "fullBook": {
+            "required": true,
+            "url": "https://bit.ly/3grcySb",
+            "cssQuery": "a[alias=\"ספר רכב כללי\"]"
+          },
+          "shortBook": {
+            "required": true,
+            "url": "https://bit.ly/3HhVMA3",
+            "cssQuery": "a[alias=\"תקציר כללי \"]"
+          },
+          "multimediaBook": {
+            "required": false,
+            "url": "https://my.dacia.co.il/3pAbexs",
+            "cssQuery": "a[alias=\"ספר מולטימדיה- מקומי\"]"
+          },
+          "maintenanceBook": {
+            "required": true,
+            "url": "https://bit.ly/3AO7AGk",
+            "cssQuery": "a[alias=\"מערך טיפולים- 1\"]"
+          },
+          "guarantyBook": {
+            "required": true,
+            "url": "https://bit.ly/3HW3Gzt",
+            "cssQuery": "a[alias=\"חוברת אחריות\"]"
+          },
+          "serviceListBook": {
+            "required": true,
+            "url": "https://bit.ly/3XiWhPW",
+            "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
+          }
+        }
+      },
+      {
+        "name": "Tiggo 8",
+        "canBeSkipped": false,
+        "licenceNumber": "32128503",
+        "bookUrls": {
+          "fullBook": {
+            "required": false,
+            "url": "https://my.infiniti-cars.co.il/3SFQu4Q",
+            "cssQuery": "a[alias=\"ספר רכב כללי\"]"
+          },
+          "shortBook": {
+            "required": true,
+            "url": "https://bit.ly/3VFK4nd",
+            "cssQuery": "a[alias=\"תקציר כללי \"]"
+          },
+          "multimediaBook": {
+            "required": false,
+            "url": "https://my.dacia.co.il/3pAbexs",
+            "cssQuery": "a[alias=\"ספר מולטימדיה- מקומי\"]"
+          },
+          "maintenanceBook": {
+            "required": true,
+            "url": "https://bit.ly/3F1CufN",
+            "cssQuery": "a[alias=\"מערך טיפולים- 1\"]"
+          },
+          "guarantyBook": {
+            "required": true,
+            "url": "https://bit.ly/3jmdyZ0",
+            "cssQuery": "a[alias=\"חוברת אחריות\"]"
+          },
+          "serviceListBook": {
+            "required": true,
+            "url": "https://bit.ly/3tP4Qoi",
+            "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
+          }
+        }
+      }
+    ]
   }
 ]

@@ -129,6 +129,10 @@
         background-color: darkgrey;
       }
 
+      .brand:nth-child(5) {
+              background-color: lightgrey;
+            }
+
       .input-link {
         display: flex;
         flex-direction: column;
@@ -147,6 +151,12 @@
         -webkit-appearance: none;
         margin: 0;
       }
+
+      input[type="number"]::-moz-inner-spin-button,
+            input[type="number"]::-moz-outer-spin-button {
+              -moz-appearance: none;
+              margin: 0;
+            }
 
       .input-link button {
         text-decoration: none;
