@@ -197,17 +197,17 @@
         "bookUrls": {
           "fullBook": {
             "required": true,
-            "url": "https://my.renault.co.il/3fqtDIq",
+            "url": "https://my.renault.co.il/3yno7NZ",
             "cssQuery": "a[alias=\"ספר רכב כללי\"]"
           },
           "shortBook": {
             "required": true,
-            "url": "https://my.renault.co.il/3Fqe2CS",
+            "url": "https://my.renault.co.il/3tp0EN4",
             "cssQuery": "a[alias=\"תקציר כללי \"]"
           },
           "multimediaBook": {
             "required": true,
-            "url": "https://my.renault.co.il/3yvW9Q8",
+            "url": "https://my.renault.co.il/3xkrO5X",
             "cssQuery": "a[alias=\"חוברות מולטימדיה\"]"
           },
           "maintenanceBook": {
@@ -222,7 +222,7 @@
           },
           "serviceListBook": {
             "required": true,
-            "url": "https://my.renault.co.il/3QGmmVu",
+            "url": "https://my.renault.co.il/3QFO3Od",
             "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
           }
         }
@@ -970,8 +970,8 @@
         "licenceNumber": "32128503",
         "bookUrls": {
           "fullBook": {
-            "required": false,
-            "url": "https://my.infiniti-cars.co.il/3SFQu4Q",
+            "required": true,
+            "url": "https://bit.ly/3VT5Jsa",
             "cssQuery": "a[alias=\"ספר רכב כללי\"]"
           },
           "shortBook": {
