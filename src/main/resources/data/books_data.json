@@ -228,6 +228,43 @@
         }
       },
       {
+        "name": "Austral petrol",
+        "canBeSkipped": false,
+        "licenceNumber": "50279703",
+        "bookUrls": {
+          "fullBook": {
+            "required": true,
+            "url": "https://my.renault.co.il/3G6lZ2m",
+            "cssQuery": "a[alias=\"ספר רכב כללי\"]"
+          },
+          "shortBook": {
+            "required": true,
+            "url": "https://my.renault.co.il/3VAEZM8",
+            "cssQuery": "a[alias=\"תקציר כללי \"]"
+          },
+          "multimediaBook": {
+            "required": false,
+            "url": "https://my.renault.co.il/3xkrO5X",
+            "cssQuery": "a[alias=\"חוברות מולטימדיה\"]"
+          },
+          "maintenanceBook": {
+            "required": true,
+            "url": "https://my.renault.co.il/3kvg3J3",
+            "cssQuery": "a[alias=\"מערך טיפולים- 1\"]"
+          },
+          "guarantyBook": {
+            "required": true,
+            "url": "https://my.renault.co.il/3CHwat8",
+            "cssQuery": "a[alias=\"חוברת אחריות\"]"
+          },
+          "serviceListBook": {
+            "required": true,
+            "url": "https://my.renault.co.il/3WLyKq4",
+            "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
+          }
+        }
+      },
+      {
         "name": "Traffic",
         "canBeSkipped": false,
         "licenceNumber": "83342302",
@@ -971,7 +1008,7 @@
         "bookUrls": {
           "fullBook": {
             "required": true,
-            "url": "https://bit.ly/3VT5Jsa",
+            "url": "https://bit.ly/3XPcY53",
             "cssQuery": "a[alias=\"ספר רכב כללי\"]"
           },
           "shortBook": {
