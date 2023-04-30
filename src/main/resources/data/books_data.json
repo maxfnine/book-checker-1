@@ -645,6 +645,43 @@
         }
       },
       {
+        "name": "Qashqai ePower",
+        "canBeSkipped": false,
+        "licenceNumber": "50277303",
+        "bookUrls": {
+          "fullBook": {
+            "required": true,
+            "url": "https://my.nissan.co.il/3enOSgz",
+            "cssQuery": "a[alias=\"ספר רכב כללי\"]"
+          },
+          "shortBook": {
+            "required": true,
+            "url": "https://my.nissan.co.il/3en4LUK",
+            "cssQuery": "a[alias=\"תקציר כללי \"]"
+          },
+          "multimediaBook": {
+            "required": true,
+            "url": "https://my.nissan.co.il/3V7OLG6",
+            "cssQuery": "a[alias=\"חוברות מולטימדיה\"]"
+          },
+          "maintenanceBook": {
+            "required": true,
+            "url": "https://my.nissan.co.il/3LT5fAb",
+            "cssQuery": "a[alias=\"מערך טיפולים- 1\"]"
+          },
+          "guarantyBook": {
+            "required": false,
+            "url": "https://my.nissan.co.il/3rdMNG3",
+            "cssQuery": "a[alias=\"חוברת אחריות\"]"
+          },
+          "serviceListBook": {
+            "required": true,
+            "url": "https://my.nissan.co.il/3RZw7xX",
+            "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
+          }
+        }
+      },
+      {
         "name": "X-Trail",
         "canBeSkipped": false,
         "licenceNumber": "83114302",
@@ -677,6 +714,43 @@
           "serviceListBook": {
             "required": true,
             "url": "https://my.nissan.co.il/3zXJUxK",
+            "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
+          }
+        }
+      },
+      {
+        "name": "X-Trail e4orce",
+        "canBeSkipped": false,
+        "licenceNumber": "50263303",
+        "bookUrls": {
+          "fullBook": {
+            "required": true,
+            "url": "https://my.nissan.co.il/3rXhsIK",
+            "cssQuery": "a[alias=\"ספר רכב כללי\"]"
+          },
+          "shortBook": {
+            "required": true,
+            "url": "https://my.nissan.co.il/3rZA232",
+            "cssQuery": "a[alias=\"תקציר כללי \"]"
+          },
+          "multimediaBook": {
+            "required": true,
+            "url": "https://my.nissan.co.il/3XEqIjG",
+            "cssQuery": "a[alias=\"חוברות מולטימדיה\"]"
+          },
+          "maintenanceBook": {
+            "required": true,
+            "url": "https://my.nissan.co.il/3WjcbbY",
+            "cssQuery": "a[alias=\"מערך טיפולים- 1\"]"
+          },
+          "guarantyBook": {
+            "required": true,
+            "url": "https://my.nissan.co.il/3F1FngD",
+            "cssQuery": "a[alias=\"חוברת אחריות\"]"
+          },
+          "serviceListBook": {
+            "required": true,
+            "url": "https://my.nissan.co.il/3rXo6yH",
             "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
           }
         }
