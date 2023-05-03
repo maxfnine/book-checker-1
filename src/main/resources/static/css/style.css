@@ -133,6 +133,10 @@
               background-color: lightgrey;
             }
 
+      .brand:nth-child(6) {
+                    background-color: black;
+                  }
+
       .input-link {
         display: flex;
         flex-direction: column;

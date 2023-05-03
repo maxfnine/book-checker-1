@@ -1113,5 +1113,50 @@
         }
       }
     ]
+  },
+  {
+    "brandName": "Eveasy",
+    "baseURL": "https://cloud.info.renault.co.il/eveasy-catalog?m=",
+    "logoPath": "/img/eveasy.jpg",
+    "canSkip": false,
+    "models": [
+      {
+        "name": "Limo",
+        "canBeSkipped": false,
+        "licenceNumber": "50305803",
+        "bookUrls": {
+          "fullBook": {
+            "required": true,
+            "url": "https://bit.ly/3PqaiaY",
+            "cssQuery": "a[alias=\"ספר רכב כללי\"]"
+          },
+          "shortBook": {
+            "required": true,
+            "url": "https://bit.ly/3UECaJC",
+            "cssQuery": "a[alias=\"תקציר כללי \"]"
+          },
+          "multimediaBook": {
+            "required": false,
+            "url": "https://my.dacia.co.il/3pAbexs",
+            "cssQuery": "a[alias=\"ספר מולטימדיה- מקומי\"]"
+          },
+          "maintenanceBook": {
+            "required": true,
+            "url": "https://my.freesbe.com/42u5SWP",
+            "cssQuery": "a[alias=\"מערך טיפולים- 1\"]"
+          },
+          "guarantyBook": {
+            "required": true,
+            "url": "https://bit.ly/3YyloOF",
+            "cssQuery": "a[alias=\"חוברת אחריות\"]"
+          },
+          "serviceListBook": {
+            "required": true,
+            "url": "https://bit.ly/3Yxx04f",
+            "cssQuery": "a[alias=\"רשימת מרכזי שירות\"]"
+          }
+        }
+      }
+    ]
   }
 ]
